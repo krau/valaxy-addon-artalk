@@ -17,6 +17,8 @@
     "./*": "./*"
   },
   "dependencies": {
-    "artalk": "^2.8.3"
+    "artalk": "latest",
+    "vue": "^3.5.8",
+    "vue-i18n": "^10.0.3"
   }
 }
