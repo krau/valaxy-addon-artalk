@@ -1,6 +1,6 @@
 {
   "name": "valaxy-addon-artalk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Artalk Composition API for Valaxy",
   "repository": "https://github.com/krau/valaxy-addon-artalk",
   "keywords": [
