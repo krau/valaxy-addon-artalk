@@ -11,14 +11,14 @@
   "main": "index.ts",
   "types": "index.d.ts",
   "peerDependencies": {
-    "valaxy": "latest"
+    "valaxy": "^0.26.0"
   },
   "exports": {
     "./*": "./*"
   },
   "dependencies": {
-    "artalk": "latest",
-    "vue": "^3.5.13",
-    "vue-i18n": "^10.0.6"
+    "artalk": "^2.9.1",
+    "vue": "^3.5.22",
+    "vue-i18n": "^11.1.12"
   }
 }
