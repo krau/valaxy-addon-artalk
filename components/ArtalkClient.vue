@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { useArtalkWithOptions } from "../client";
-import 'artalk/dist/Artalk.css'
+import { useArtalkWithOptions } from '../client'
+import 'artalk/Artalk.css'
 
-useArtalkWithOptions();
+useArtalkWithOptions()
 </script>
 
 <template>
-    <div id="ArtalkComment" w="full" />
+  <div id="ArtalkComment" w="full" />
 </template>

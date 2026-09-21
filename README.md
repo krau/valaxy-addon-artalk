@@ -4,6 +4,9 @@ valaxy-addon-artalk 是 [Artalk](https://artalk.js.org/) 的一个 Valaxy 插件
 
 用户可以使用此插件启用 Artalk 评论系统, 主题开发者可以通过此插件集成对 Artalk 的支持.
 
+- 适配 Valaxy `^1.0.0-rc.0`
+- 基于 Artalk `^2.10.0`, 配置项与 Artalk 保持一致 (仅 `server` 与 `site` 必填)
+
 当前暂未支持浏览量统计.
 
 ## 使用
@@ -33,6 +36,9 @@ export default defineValaxyConfig({
     addonArtalk({
       server: "https://artalk.backend.com",
       site: "My Blog",
+      // 其余 Artalk 配置项均可直接传入, 例如:
+      // darkMode: "auto",
+      // pageKey: "/custom-page-key",
     }),
   ],
 });
@@ -56,7 +62,7 @@ if (!isEmptyAddon(addonArtalk))
 </script>
 
 <template>
-    <ArtalkClient />
+  <ArtalkClient />
 </template>
 ```
 
