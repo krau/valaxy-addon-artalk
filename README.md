@@ -66,6 +66,10 @@ if (!isEmptyAddon(addonArtalk))
 </template>
 ```
 
+`useArtalkWithOptions()` 同样可以省略, 由 `<ArtalkClient />` 组件自行初始化.
+
+同一个挂载点只会创建一个 Artalk 实例: 主题与组件同时初始化 (例如上面的写法) 也不会出现多个评论框.
+
 ## 参考
 
 - [Artalk](https://artalk.js.org/)
